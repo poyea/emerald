@@ -1,0 +1,17 @@
+[package]
+name = "emerald"
+version = "0.1.0"
+edition = "2021"
+authors = ["John Law <johnlaw.po@gmail.com>"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+bootloader = "0.9.22"
